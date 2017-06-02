@@ -127,6 +127,7 @@ class TFNet(object):
 		})
 
 		utility = min(self.FLAGS.gpu, 1.)
+		#utility = 1.0
 		if utility > 0.0:
 			self.say('GPU mode with {} usage'.format(utility))
 			cfg['gpu_options'] = tf.GPUOptions(

@@ -1,4 +1,5 @@
-aeroplane
-bicycle
-bird
-boat
+Car
+Truck
+Pedestrian
+Traffic Light
+Bicyclist
